@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+:root {
+  --txt: rgb(255, 255, 255);
+}
+
+* {
+  font-family: 'Noto Serif', serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-flow: nowrap;
+  width: 100vw;
+  height: 100vh;
+  color: var(--txt);
+}
+
+.image {
+  background-image: url(images/black\ hole.png);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 40vw;
+  position: relative;
+}
+
+.logo-container {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding: 20px;
+}
+
+.logo-image {
+  margin-left: -30px;
+  width: 250px;
+  background: none;
+}
+
+.logo-text {
+  margin-left: -60px;
+  color: white;
+  background: none;
+  font-size: 4rem;
+}
+
+.form-container {
+  background: rgb(17, 10, 31);
+  width: 60vw;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.dummy {
+  font-weight: 500;
+  width: 95%;
+  font-size: 1.3rem;
+  margin: 30px;
+}
+
+.lone-text {
+  margin: 40px 0;
+}
+
+.form-box {
+  font-weight: 400;
+  background: rgb(20, 20, 20);
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.form-title {
+  font-size: 1.2rem;
+  width: 100%;
+  font-weight: 200;
+  margin-bottom: 20px;
+  background: none;
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  font-weight: 100;
+}
+
+input {
+  border: .5px solid white;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgba(219, 202, 202, 0);
+  color: red;
+  font-weight: 800;
+  font-size: 1.5rem;
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.log-in {
+  display: flex;
+  margin: 20px;
+}
+
+a {
+  color: red;
+}
